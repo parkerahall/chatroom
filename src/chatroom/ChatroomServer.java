@@ -13,7 +13,7 @@ import java.util.Set;
 
 public class ChatroomServer {
     
-    private static final int DEFAULT_PORT = 1313;
+    private static final int DEFAULT_PORT = 13000;
     private static final int THE_LONELIEST_NUMBER = 1;
     private static final String GOODBYE_MESSAGE = " has left the group!";
     
