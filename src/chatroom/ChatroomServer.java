@@ -144,7 +144,7 @@ public class ChatroomServer {
     
     /**
      * Create a set of recipients for a message
-     * @param sender socket of the sneder of a message
+     * @param sender socket of the sender of a message
      * @return a set of all user sockets in the chatroom not including sender
      */
     private Set<Socket> removeSender(Socket sender) {
