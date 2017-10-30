@@ -98,6 +98,9 @@ public class ChatroomServer {
             friendName = clientWrite.readLine();
         }
         
+        String instructionMessage = "Welcome " + friendName + "! Start typing below to send messages to your friends.";
+        clientRead.println(instructionMessage);
+        
         return friendName;
     }
     
